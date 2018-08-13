@@ -3,8 +3,8 @@ import PokeAPI from '../node_modules/pokemongo-api/src'
 
 env(__dirname + '/.env');
 
-var username = process.env.PGO_USERNAME || 'solaing'
-var password = process.env.PGO_PASSWORD || 'mikeshinova03'
+var username = process.env.PGO_USERNAME
+var password = process.env.PGO_PASSWORD
 var provider = process.env.PGO_PROVIDER || 'ptc'
 var lat = process.env.LATITUDE || 40.759211
 var lng = process.env.LONGITUDE || -73.984472
